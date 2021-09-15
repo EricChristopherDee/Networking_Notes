@@ -56,5 +56,6 @@ RESOURCE RECORDS
 
 • Each domain section can be 63 characters long, and a complete FQDN (fully qualified domain name) is limited to 255 characters
 
+DCHP (Dynamic Host Configuration Protocol)
 
-
+• Dynamic allocation uses a device to allocate a pre-set group of IP addresses. It will usually try to assign the same IP over and over if it is available. Server discovery (send a server discovery message ) [UDP] port 68 sends a message to a destination [UDP] port 67. DHCPDISCOVER missage is a UDP datagram with destination port 68/source 68 using a 255.255.255.255 destination, and a 0.0.0.0 source. Any DHCP servers on the network can find this. If the discovery message is acceptable, the response comes back as a DHCP offer with a destination of port 68/source 67, that gets sent with a destination broadcast ip 255.255.255.255, and the DCHP server address as the source, allowing the requestor to accept/link.
