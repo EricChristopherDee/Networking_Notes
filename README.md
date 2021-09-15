@@ -25,3 +25,11 @@ LAYERS
 • A routing table is a series of known addresses and potential outcomes listed for an IP address or device that will allow each device to become connected, so long as the chain of devices persists.
 
 • TTL means "time to live", and designates how many attempted steps are made through any given series of routing tables. A request may for example find its way through a router, and to its service provider where it is then routed through a series of hosts that are designated to know the address requested. If the TTL is set lower than the total re-routes, or "hops" needed, then the connection will have failed, and the connection request is not completed.
+
+DNS
+
+• TTL still means "time to live", but it is used for the amount of time before a IP cache is cleared, and the domain request passes through the networking layers again/to a DNS server.
+
+• There are 13 authorative root servers, TLD = top level domain, which will have an associated TLD name server that redirects to an authorative name server. When it reaches the authority server, the actual IP is revealed.
+
+• UDP is connectionless/without heavy data protocol.
