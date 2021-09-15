@@ -1,8 +1,8 @@
 TODO
 
-- Make a checksum app
-- Make a subnet calculator
-- Make a class identifier
+// Make a checksum app
+// Make a subnet calculator
+// Make a class identifier
 
 LAYERS
 
