@@ -36,4 +36,4 @@ DNS
 
 • It takes 44 packets at minimum to resolve an IP with DNS using TCP.
 
-• UDP requires at least 8 packets.
+• UDP requires at least 8 packets to resolve an IP.
