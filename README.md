@@ -52,4 +52,9 @@ RESOURCE RECORDS
 
 • TXT used to be used for extra information pertaining to the domain, but now sometimes is used for odd situations with data, or mail
 
+• A domain can be up to 127 levels of subdomain
+
+• Each domain section can be 63 characters long, and a complete FQDN (fully qualified domain name) is limited to 255 characters
+
+
 
