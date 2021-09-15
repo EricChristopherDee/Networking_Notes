@@ -50,6 +50,6 @@ RESOURCE RECORDS
 
 • SRV or service record returns records for services
 
-• TXT used to be used for extra information pertaining to the domain, but now sometimes is used for odd situations with data, or identity
+• TXT used to be used for extra information pertaining to the domain, but now sometimes is used for odd situations with data, or mail
 
 
