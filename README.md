@@ -1,3 +1,9 @@
+TODO
+
+Make a checksum app
+Make a subnet calculator
+Make a class identifier
+
 LAYERS
 
 • The physical layer is the component outcome that describes which hardware ins and outs are to be used for the transmission, and placement of the data.
