@@ -12,7 +12,7 @@ LAYERS
 
 • The network layer is the layer in which primary external interactions occur from one host computer to the many computers outside of it. It may include communication to ask if another computer is available, or setup between computers of certain transmission standards and access addresses, and the resulting data packets that were asked to be sent or requested.
 
-•  The transport layer is like a header. It collects certain values and passes them to the network layer to ensure consistency of data, and to make sure that formats are going to be what was requested.
+•  The transport layer is like a header. It collects certain values and passes them to the network layer to ensure consistency of data, and to make sure that formats are going to be what was requested. It includes the "payload" layer of the transport layer, which can have inherited/secondary data.
 
 •  A media access control is a unique number series assigned to a network interface controller that discerns which physical component is the consignee to any given network related data component, or frame. Historically, a MAC address is 48 bits long. The first half being the organizationally unique identifier, and the last is the serial number.
 
