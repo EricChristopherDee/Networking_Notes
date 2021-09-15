@@ -33,3 +33,7 @@ DNS
 • There are 13 authorative root servers, TLD = top level domain, which will have an associated TLD name server that redirects to an authorative name server. When it reaches the authority server, the actual IP is revealed.
 
 • UDP is connectionless/without heavy data protocol.
+
+• It takes 44 packets at minimum to resolve an IP with DNS using TCP.
+
+• UDP requires at least 8 packets.
