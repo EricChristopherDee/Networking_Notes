@@ -59,3 +59,5 @@ RESOURCE RECORDS
 DCHP (Dynamic Host Configuration Protocol)
 
 • Dynamic allocation uses a device to allocate a pre-set group of IP addresses. It will usually try to assign the same IP over and over if it is available. Server discovery (send a server discovery message ) [UDP] port 68 sends a message to a destination [UDP] port 67. DHCPDISCOVER missage is a UDP datagram with destination port 68/source 68 using a 255.255.255.255 destination, and a 0.0.0.0 source, along with its MAC address. Any DHCP servers on the network can find this. If the discovery message is acceptable, the response comes back as a DHCP offer with a destination of port 68/source 67, that gets sent with a destination broadcast ip 255.255.255.255, and the DCHP server address as the source, along with the origin MAC address, allowing the requestor, or othertimes called a client to accept/link.
+
+• The configuration process is called a DHCP lease. Each lease is only valid for a certain period of time. If the lease expires, the DHCP client object must again request another lease.
