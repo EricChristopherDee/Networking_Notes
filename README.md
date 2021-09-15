@@ -37,3 +37,11 @@ DNS
 • It takes 44 packets at minimum to resolve an IP with DNS using TCP.
 
 • UDP requires at least 8 packets to resolve an IP.
+
+RESOURCE RECORDS
+
+• A domain usually uses only one A record, else it is considered a DNS round robin technique to balance traffic. This technique adjusts the IP listing sort output so that each request uses a different IP on first attempt.
+
+• Quad A uses Ipv6
+
+• CNAME uses character domains (canonical names)
