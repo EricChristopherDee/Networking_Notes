@@ -1,10 +1,10 @@
-TODO
+To do:
 
 1. Make a checksum application
 2. Make a subnet calculator application
 3. Make a class identifier application
 
-LAYERS
+Layers:
 
 • The physical layer is the component outcome that describes which hardware ins and outs are to be used for the transmission, and placement of the data.
 
@@ -38,7 +38,7 @@ DNS
 
 • UDP requires at least 8 packets to resolve an IP.
 
-RESOURCE RECORDS
+Resource Records:
 
 • A domain usually uses only one A record, else it is considered a DNS round robin technique to balance traffic. This technique adjusts the IP listing sort output so that each request uses a different IP on first attempt.
 
@@ -62,6 +62,14 @@ DCHP (Dynamic Host Configuration Protocol)
 
 • The configuration process is called a DHCP lease. Each lease is only valid for a certain period of time. If the lease expires, the DHCP client object must again request another lease.
 
-SERVICES
+Services:
 
 • NAT = network address translation
+
+Wireless:
+
+In NA, 88-108 mhz is the broadcast band
+
+Wifi specs:
+
+802.11b, 802.11a, 802.11g, 802.11n, 802.11ac in order of creation
