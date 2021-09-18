@@ -94,3 +94,5 @@ https://www.techopedia.com/definition/26909/fiber-to-the-building-fttb
 
 Powershell only:
 Test-NetConnection
+
+Ipv6 payload size is 16 bits.
