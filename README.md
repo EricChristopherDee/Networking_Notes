@@ -73,3 +73,12 @@ In NA, 88-108 mhz is the broadcast band
 Wifi specs:
 
 802.11b, 802.11a, 802.11g, 802.11n, 802.11ac in order of creation
+
+Number of bits per encryption key displays how strong it is
+
+• WEP, wired equivalent policy uses 40 bits. Not considered very safe
+• WPA, wifi protected access uses 128 bits
+• WPA2 uses 256 bits
+MAC filtering is usually used to aid in securing a network
+
+
