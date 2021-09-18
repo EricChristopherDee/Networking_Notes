@@ -83,6 +83,7 @@ MAC filtering is usually used to aid in securing a network
 
 CMTS = Cable Modem Termination System
 ONT = Optical Network Terminator (terminal)
+WAN = wireless access network
 
 1, 6, and 11 are the only channels that do not overlap
 
