@@ -81,4 +81,6 @@ Number of bits per encryption key displays how strong it is
 • WPA2 uses 256 bits
 MAC filtering is usually used to aid in securing a network
 
+CMTS = Cable Modem Termination System
+
 
