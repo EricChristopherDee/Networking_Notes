@@ -83,4 +83,6 @@ MAC filtering is usually used to aid in securing a network
 
 CMTS = Cable Modem Termination System
 
+1, 6, and 11 are the only channels that do not overlap
+
 
