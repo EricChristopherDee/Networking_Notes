@@ -91,3 +91,6 @@ Fiber:
 
 https://www.techopedia.com/definition/26909/fiber-to-the-building-fttb
 "Fiber to the building is just one of a number of fiber deployment setups collectively called FTTx. Others include fiber to the home (FTTH), where a fiber cable may carry a signal to an individual home, or fiber to the node (FTTN), where the fiber cable carries a shared connection to a street box that is then distributed to several properties. Other fiber setups include local networks and methods like fiber to the desk (FTTD), where a fiber cable carries a signal locally from an onsite box to a particular workstation. Another choice is direct fiber, where an individual signal is carried exclusively to one customer from a provider’s central office."
+
+Powershell only:
+Test-NetConnection
