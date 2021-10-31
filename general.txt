@@ -18,14 +18,14 @@ Layers:
   between computers of certain transmission standards and access addresses, and the resulting data packets that 
   were asked to be sent or requested.
 
-•  The transport layer is like a header. It collects certain values and passes them to the network layer to 
-   ensure consistency of data, and to make sure that formats are going to be what was requested. It includes 
-   the "payload" layer of the transport layer, which can have inherited/secondary data.
+• The transport layer is like a header. It collects certain values and passes them to the network layer to 
+  ensure consistency of data, and to make sure that formats are going to be what was requested. It includes the
+  "payload" layer of the transport layer, which can have inherited/secondary data.
 
-•  A media access control is a unique number series assigned to a network interface controller that discerns 
-   which physical component is the consignee to any given network related data component, or frame. 
-   Historically, a MAC address is 48 bits long. The first half being the organizationally unique identifier, 
-   and the last is the serial number.
+• A media access control is a unique number series assigned to a network interface controller that discerns 
+  which physical component is the consignee to any given network related data component, or frame. Historically, 
+  a MAC address is 48 bits long. The first half being the organizationally unique identifier, and the last is 
+  the serial number.
 
 • An IP address is a logical address used to determine sources, and as such; destinations for hardware on a 
   network, which may then be further deduced to a MAC address for specific components.
